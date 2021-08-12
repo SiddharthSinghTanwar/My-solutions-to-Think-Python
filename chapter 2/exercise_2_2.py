@@ -33,5 +33,5 @@ tempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for
 27006
 >>> final_seconds = final_time % 60
 >>> minutes  = final_time / 60
->>> final_minutes = minutes % 60
+>>> final_minutes = minutes % 60 - final_seconds / 60
 >>> final_hours = minutes / 60 - final_minutes / 60
